@@ -4,7 +4,7 @@
 #
 Name     : pypi-docker_pycreds
 Version  : 0.4.0
-Release  : 24
+Release  : 25
 URL      : https://files.pythonhosted.org/packages/c5/e6/d1f6c00b7221e2d7c4b470132c931325c8b22c51ca62417e300f5ce16009/docker-pycreds-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c5/e6/d1f6c00b7221e2d7c4b470132c931325c8b22c51ca62417e300f5ce16009/docker-pycreds-0.4.0.tar.gz
 Summary  : Python bindings for the docker credentials store API
@@ -14,9 +14,6 @@ Requires: pypi-docker_pycreds-license = %{version}-%{release}
 Requires: pypi-docker_pycreds-python = %{version}-%{release}
 Requires: pypi-docker_pycreds-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: docker-pycreds
-Provides: docker-pycreds-python
-Provides: docker-pycreds-python3
 BuildRequires : pypi(six)
 
 %description
@@ -60,7 +57,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641433719
+export SOURCE_DATE_EPOCH=1649739971
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
