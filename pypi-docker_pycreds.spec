@@ -4,7 +4,7 @@
 #
 Name     : pypi-docker_pycreds
 Version  : 0.4.0
-Release  : 36
+Release  : 37
 URL      : https://files.pythonhosted.org/packages/c5/e6/d1f6c00b7221e2d7c4b470132c931325c8b22c51ca62417e300f5ce16009/docker-pycreds-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c5/e6/d1f6c00b7221e2d7c4b470132c931325c8b22c51ca62417e300f5ce16009/docker-pycreds-0.4.0.tar.gz
 Summary  : Python bindings for the docker credentials store API
